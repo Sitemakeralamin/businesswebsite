@@ -1,0 +1,186 @@
+
+/*
+Theme Name:business
+Theme URI: https://www.mdalaminbc3.com
+Author: md alamin
+Author URI: https://www.mdalamin.com
+Description: Business Website is a blank canvas for your ideas and it makes the block editor your best brush. With new block patterns, which allow you to create a beautiful layout in a matter of seconds, this theme’s soft colors and eye-catching — yet timeless — design will let your work shine. Take it for a spin! See how Twenty Twenty-One elevates your portfolio, business website, or personal blog.
+Requires at least: 5.3
+Tested up to: 5.6
+Requires PHP: 5.6
+Version: 1.2
+Tags: one-column, flexible-header, accessibility-ready, custom-colors, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, rtl-language-support, sticky-post, threaded-comments, translation-ready, block-patterns
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: business
+
+*/
+
+
+.gallery-caption{}
+.bypostautho{}
+.bypostauthor{}
+/* =WordPress Core
+-------------------------------------------------------------- */
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+	border: 0;
+	clip: rect(1px, 1px, 1px, 1px);
+	clip-path: inset(50%);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute !important;
+	width: 1px;
+	word-wrap: normal !important; /* Many screen reader and browser combinations announce broken words as they would appear visually. */
+}
+
+.screen-reader-text:focus {
+	background-color: #eee;
+	clip: auto !important;
+	clip-path: none;
+	color: #444;
+	display: block;
+	font-size: 1em;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000;
+	/* Above WP toolbar. */
+}
+
+h3.tm-text-primary.custom {
+    margin-bottom: 17px;
+    margin-top: 14px;
+}
+.pagination_style {
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.pagination_style .page-numbers {
+    margin-left: 2%;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.post_meta {
+    font-size: 13px;
+    margin-top: 9px;
+}
+
+.row.tm-mb-6.tm-contact-row.mx-auto {
+    margin-top: 10%;
+}
+
+.custom_breadcumb {
+    text-align: center;
+    margin-top: 2%;
+    font-size: 31px;
+}
+
+form#searchform {
+    float: right;
+    margin-top: 41px;
+    padding: 13px;
+}
+
+.contaner.custom {
+    margin-top: 10%;
+}
+h2.search_result {
+    color: red;
+    text-align: center;
+    margin-top: 20%;
+    margin-left: 21%;
+    margin-bottom: 20%;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: fantasy;
+}
+.serach {
+    float: right;
+    margin-top: 54px;
+    margin-right: 35px;
+}
